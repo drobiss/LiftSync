@@ -1,0 +1,36 @@
+.logo {
+  font-size: 20px;
+  color: greenyellow;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+
+
+
+/* Pro malé mobilní telefony */
+@media (max-width: 320px) {
+  nav input {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+/* Pro mobilní telefony */
+@media (min-width: 321px) and (max-width: 480px) {
+  nav input {
+    font-size: 16px;
+  }
+}
+
+/* Pro tablety */
+@media (min-width: 481px) and (max-width: 768px) {
+  nav input {
+    max-width: 80%;
+  }
+}
