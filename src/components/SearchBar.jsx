@@ -4,7 +4,7 @@ const SearchBar = ({ setSearchingText }) => {
   return (
     <input 
       type="text" 
-      placeholder="Vyhledat cvik..."
+      placeholder="Search exercise..."
       onChange={(e) => setSearchingText(e.target.value)}
     />
   )

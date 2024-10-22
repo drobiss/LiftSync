@@ -7,7 +7,7 @@ const ExerciseCard = ({ exercise, weight, onWeightSubmit }) => {
     <div className="exercise-card">
       <h2>{exercise.exercise}</h2>
       <a href={exercise.exerciseLink} target="_blank" rel="noopener noreferrer">
-        Odkaz na cvik
+        Link to exercise
       </a>
       <WeightInput 
         id={exercise.id} 

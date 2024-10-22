@@ -59,13 +59,13 @@ const App = () => {
     <Navbar  setSearchingText={setSearchingText}/>
     <div className="exercises-box">
       <div className="buttons-container">
-        <ExerciseFilterButton onClick={() => handleBodyPartFilter("All")}>Vše</ExerciseFilterButton>
+        <ExerciseFilterButton onClick={() => handleBodyPartFilter("All")}>All</ExerciseFilterButton>
         <ExerciseFilterButton onClick={() => handleBodyPartFilter("Biceps")}>Biceps</ExerciseFilterButton>
         <ExerciseFilterButton onClick={() => handleBodyPartFilter("Triceps")}>Triceps</ExerciseFilterButton>
-        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Shoulders")}>Ramena</ExerciseFilterButton>
-        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Chest")}>Hrudník</ExerciseFilterButton>
-        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Back")}>Záda</ExerciseFilterButton>
-        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Legs")}>Nohy</ExerciseFilterButton>
+        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Shoulders")}>Shoulders</ExerciseFilterButton>
+        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Chest")}>Chest</ExerciseFilterButton>
+        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Back")}>Back</ExerciseFilterButton>
+        <ExerciseFilterButton onClick={() => handleBodyPartFilter("Legs")}>Legs</ExerciseFilterButton>
       </div>
       <ExerciseList 
         exercises={filteredExercises} 
