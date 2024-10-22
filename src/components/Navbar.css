@@ -7,7 +7,7 @@
 nav {
   display: flex;
   align-items: center;
-  padding: 10px 10px;
+  padding: 10px 20px;
   justify-content: space-between;
 }
 
@@ -24,7 +24,7 @@ nav {
 /* Pro mobilní telefony */
 @media (min-width: 321px) and (max-width: 480px) {
   nav input {
-    font-size: 16px;
+    font-size: 8px;
   }
 }
 
